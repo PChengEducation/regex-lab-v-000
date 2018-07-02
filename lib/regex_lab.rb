@@ -20,6 +20,7 @@ if text.match(/[A-Z].*[\.,:;]/)
 elsif text.match(/[a-z].*[\.,:;]/)
   return false
 end
+end
 
 def valid_phone_number?(phone)
 
