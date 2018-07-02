@@ -19,6 +19,10 @@ if text.match(/[A-Z].*[\.,:;]/)
   return true
 elsif text.match(/[^A-Z].*[\.,:;]/)
   return false
+elsif text.match(/[A-Z].*[^\.,:;]/)
+  return false
+elsif text.match(/[^A-Z].*[^\.,:;]/)
+  return false
 end
 end
 
